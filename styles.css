@@ -32,3 +32,7 @@ body {
 #Cardheading {
   text-decoration: underline black 2px;
 }
+
+.list {
+  text-align: left;
+}
