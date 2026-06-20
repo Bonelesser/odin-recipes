@@ -2,6 +2,22 @@
   font-family: Garamond;
   text-align: center;
   font-size: 60px;
-  text-decoration: underline #6f92bd 5px;
+  text-decoration: underline black 5px;
   color: #1a1a1a;
+}
+
+body {
+  background-color: #d3e0f5;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 600px;
+  height: 600px;
 }
