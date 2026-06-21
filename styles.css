@@ -33,6 +33,14 @@ body {
   text-decoration: underline black 2px;
 }
 
+.border {
+  border: 5px solid black;
+  background-color: white;
+  box-sizing: border-box;
+  height: 560px;
+  border-radius: 5px;
+}
+
 .list {
   text-align: left;
 }
