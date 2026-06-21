@@ -19,13 +19,13 @@ body {
 .card {
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: white;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
   width: 600px;
-  height: 600px;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -46,12 +46,35 @@ body {
 
 .border {
   border: 5px solid rgb(71, 119, 144);
-  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f6fbff;
   box-sizing: border-box;
-  height: 560px;
+  height: auto;
   border-radius: 5px;
 }
 
-.list {
-  text-align: left;
+.listitem {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #a6c4f6;
+  margin-bottom: 20px;
+  padding-top: 2px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.recipe-heading {
+  display: block;
+  background-color: rgb(226, 240, 253);
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
 }
