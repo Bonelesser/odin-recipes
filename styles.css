@@ -24,7 +24,7 @@ body {
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  width: 600px;
+  width: 800px;
   height: auto;
   border-radius: 8px;
 }
@@ -59,7 +59,7 @@ body {
   text-align: center;
   box-sizing: border-box;
   width: 90%;
-  height: 200px;
+  height: auto;
   margin: 0 auto;
   background-color: #a6c4f6;
   margin-bottom: 20px;
@@ -72,9 +72,17 @@ body {
   display: block;
   background-color: rgb(226, 240, 253);
   width: 25%;
-  height: auto;
   margin: 0 auto;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.image {
+  display: block;
+  height: 194px;
+  width: 290px;
+  margin: 25px;
+  border: 4px solid rgb(47, 80, 98);
   border-radius: 4px;
 }
