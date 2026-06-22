@@ -115,3 +115,36 @@ body {
 .link:hover {
   background-color: #86b0f8;
 }
+
+.recipe-background {
+  width: 70%;
+  height: auto;
+  background-color: white;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.main-recipe-heading {
+  display: block;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 80px;
+}
+
+.description-recipe {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  font-size: 20px;
+}
+.recipe-image {
+  display: block;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
