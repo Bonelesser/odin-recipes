@@ -148,3 +148,36 @@ body {
   margin: 0 auto;
   border-radius: 20px;
 }
+
+.aligner-idk {
+  text-align: center;
+}
+
+.ingredients-card {
+  display: inline-block;
+  background-color: #6580af;
+  width: 30%;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+
+.recipe-card {
+  display: inline-block;
+  background-color: aqua;
+  margin: 20px;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  vertical-align: top;
+}
+
+.ingredient-list {
+  padding: 0px;
+  list-style: none;
+}
+
+.recipe-list {
+  list-style-position: inside;
+  padding: 0px;
+}
