@@ -119,10 +119,11 @@ body {
 .recipe-background {
   width: 70%;
   height: auto;
-  background-color: white;
+  background-color: #d2cdc8;
   margin: 0 auto;
   padding: 3px;
   border-radius: 10px;
+  border: 5px solid black;
 }
 
 .main-recipe-heading {
@@ -131,15 +132,17 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin-top: 20px;
   margin-bottom: 15px;
-  margin-left: 80px;
+  margin-left: 70px;
+  color: #27110b;
 }
 
 .description-recipe {
   display: block;
   margin-top: 15px;
   margin-bottom: 40px;
-  margin-left: 80px;
+  margin-left: 70px;
   font-size: 20px;
+  color: #27110b;
 }
 .recipe-image {
   display: block;
@@ -153,31 +156,75 @@ body {
   text-align: center;
 }
 
-.ingredients-card {
+.ingredients-card,
+.recipe-card {
   display: inline-block;
-  background-color: #6580af;
-  width: 30%;
+  background-color: #f4ebe4;
+  width: 20%;
   height: auto;
   margin: 20px;
   text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  border-radius: 10px;
+  border: 3px solid #a09189;
 }
 
 .recipe-card {
-  display: inline-block;
-  background-color: aqua;
-  margin: 20px;
-  width: 50%;
-  height: auto;
-  text-align: center;
+  width: 60%;
   vertical-align: top;
+}
+
+.steps-heading,
+.ingredients-heading {
+  background-color: #a09189;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #27110b;
+}
+
+.steps-heading {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  box-sizing: border-box;
+  width: 200px;
+  margin-bottom: 20px;
 }
 
 .ingredient-list {
   padding: 0px;
   list-style: none;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .recipe-list {
   list-style-position: inside;
   padding: 0px;
+  text-align: left;
+  margin: 10px;
+  line-height: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage-link {
+  margin: 20px;
+  margin-left: 73px;
+  background-color: #a09189;
+  width: 120px;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  transition-duration: 0.2s;
+  text-align: center;
+  color: #27110b;
+}
+
+.homepage-link:hover {
+  background-color: #9d9590;
 }
